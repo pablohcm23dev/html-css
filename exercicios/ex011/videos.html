@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este video está hospedado no meu próprio servidor. </p>
+    <p><a href="index.html">voltar pagina 1</a></p>
+   <!--<video src="video/mario.mp4" width="400" controls></video>
+    <video src="video/mario.m4v" width="400" controls></video>
+    <video src="video/trem.mp4" width="400" controls></video>
+    <video src="video/trem.ogv" width="400" controls></video>/-->
+    <video width="400" controls autoplay loop>
+        <source src="video/mario.m4v" type="video/m4v">
+        <source src="video/mario.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reproduçaõ dos videos</p>
+    </video>
+    <video width="400"  controls autoplay loop>
+        <source src="video/trem.mp4" type="video/mp4">
+        <source src="video/trem.ogv" type="video/ogv">
+        <p>Seu navegador não tem compatibilidade com reproduçaõ dos videos</p>
+    </video>
+    
+    <h1>Inserindo videos do Youtube</h1>
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/P0-6En3Z3LA?si=QnL2jawh89sVthfV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<h1>Inserindo video do vimeo</h1>
+
+<iframe src="https://player.vimeo.com/video/395057306?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Anime Music Video Kodoku Mep 2020 | OIÜ - Revolt"></iframe>
+
+</body>
+</html>
